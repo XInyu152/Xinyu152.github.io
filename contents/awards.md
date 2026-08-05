@@ -1,3 +1,6 @@
-- 鏍＄骇涓€绛夊瀛﹂噾, 2022.  
+- 瑗夸氦鍒╃墿娴﹀ぇ瀛﹀叆瀛﹀瀛﹂噾, 2024
 
-- Outstanding Graduation Thesis, XXX University, 2023. 
+- SURF 鏆戞湡鏈鐢熺爺绌堕」鐩瘉涔? 2025
+
+- CET-4 / CET-6 鑻辫姘村钩璇佷功
+
