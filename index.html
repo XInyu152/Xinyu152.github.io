@@ -1,205 +1,139 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
-    <meta name="description" content="閭垫瓎缇界殑涓汉涓婚〉 | XJTLU Applied Mathematics" />
-    <meta name="author" content="閭垫瓎缇? />
-    <title>閭垫瓎缇界殑涓汉涓婚〉</title>
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
-
-    <!-- Bootstrap icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-
-    <!-- Core theme CSS -->
-    <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
-    <link type="text/css" href="static/css/main.css" rel="stylesheet" />
-
-    <!-- Bootstrap core JS -->
-    <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
-
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>閭垫瓎缇?| 涓汉涓婚〉</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Microsoft YaHei", sans-serif; color: #333; line-height: 1.8; }
+nav { position: fixed; top: 0; width: 100%; background: #fff; border-bottom: 2px solid #1a73e8; z-index: 1000; padding: 0 24px; display: flex; justify-content: space-between; align-items: center; height: 56px; }
+nav .brand { font-weight: 700; font-size: 18px; color: #1a1a2e; text-decoration: none; }
+nav .links { display: flex; gap: 8px; }
+nav .links a { color: #555; text-decoration: none; font-size: 14px; padding: 6px 12px; border-radius: 4px; transition: .2s; }
+nav .links a:hover { color: #1a73e8; background: #f0f4ff; }
+.hero { margin-top: 56px; background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460); padding: 80px 24px 60px; text-align: center; color: #fff; }
+.hero h1 { font-size: 2.4rem; font-weight: 300; letter-spacing: 2px; }
+.avatar { text-align: right; max-width: 860px; margin: -50px auto 0; padding: 0 24px; position: relative; z-index: 10; }
+.avatar img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 4px solid #fff; box-shadow: 0 4px 12px rgba(0,0,0,.15); }
+.section { max-width: 860px; margin: 0 auto; padding: 40px 24px; }
+.section h2 { font-size: 1.5rem; color: #1a73e8; margin-bottom: 20px; padding-bottom: 8px; border-bottom: 2px solid #e8e8e8; }
+.section h2 i { margin-right: 8px; }
+.section h3 { font-size: 1.15rem; margin: 16px 0 4px; color: #1a1a2e; }
+.section h4 { font-size: 1rem; margin: 14px 0 4px; color: #555; }
+.section p { margin: 6px 0; }
+.section ul { margin: 8px 0 8px 20px; }
+.section li { margin: 4px 0; }
+.section code { background: #f0f4ff; padding: 2px 8px; border-radius: 3px; font-size: .9rem; color: #1a73e8; }
+.section hr { border: none; border-top: 1px solid #ddd; margin: 20px 0; }
+.section a { color: #1a73e8; text-decoration: none; }
+.bg-light { background: #fafafa; }
+.bg-gray { background: #f5f5f5; }
+footer { background: #1a1a2e; color: rgba(255,255,255,.6); text-align: center; padding: 32px 24px; font-size: 14px; }
+footer a { color: rgba(255,255,255,.8); }
+.badge { display: inline-block; background: #1a73e8; color: #fff; padding: 2px 10px; border-radius: 12px; font-size: 12px; margin-left: 6px; }
+</style>
 </head>
+<body>
 
-<body id="page-top">
-    <!-- Navigation -->
-    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-        <div class="container px-5">
-            <a class="navbar-brand fw-bold" href="#page-top">閭垫瓎缇?/a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
-                <i class="bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#home">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#awards">AWARDS</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#experience">EXPERIENCE</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#projects">PROJECTS</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Top Section -->
-    <section class="top-section" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);">
-        <div class="top-section-content">
-            <div class="container px-5">
-                <h2 class="text-white display-3 lh-1 font-alt">Stay Hungry, Stay Foolish</h2>
-            </div>
-        </div>
-    </section>
-
-    <!-- Photo -->
-    <div class="container px-5">
-        <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.png" alt="閭垫瓎缇?>
-        </div>
+<nav>
+    <a href="#" class="brand">閭垫瓎缇?/a>
+    <div class="links">
+        <a href="#home">HOME</a>
+        <a href="#awards">AWARDS</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#projects">PROJECTS</a>
     </div>
+</nav>
 
-    <!-- Home -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
-        <div class="container px-5">
-            <header>
-                <h2>閭垫瓎缇?ensp;|&ensp;瑗夸氦鍒╃墿娴﹀ぇ瀛?/h2>
-            </header>
-            <div class="main-body">
+<div class="hero">
+    <h1>Stay Hungry, Stay Foolish</h1>
+</div>
 
-<p><a href="https://github.com/Xinyu152"><img src="https://img.shields.io/badge/GitHub-Xinyu152-blue?logo=github" alt="GitHub"></a></p>
+<div class="avatar">
+    <img src="static/assets/img/photo.png" alt="閭垫瓎缇?>
+</div>
 
-<p>I'm currently a second-year undergraduate student majoring in <strong>Applied Mathematics</strong> at <strong>Xi'an Jiaotong-Liverpool University (XJTLU)</strong>. Passionate about mathematical modeling, data analysis, and programming.</p>
+<div class="section" id="home">
+    <h2>閭垫瓎缇?&ensp;|&ensp; 瑗夸氦鍒╃墿娴﹀ぇ瀛?/h2>
 
-<p>鎴戠洰鍓嶅氨璇讳簬<strong>瑗夸氦鍒╃墿娴﹀ぇ瀛?/strong>锛屾湰绉戝ぇ浜岋紝<strong>搴旂敤鏁板</strong>涓撲笟銆傚鏁板寤烘ā銆佹暟鎹垎鏋愬拰缂栫▼鍏呮弧鐑儏銆?/p>
+    <p><a href="https://github.com/Xinyu152"><img src="https://img.shields.io/badge/GitHub-Xinyu152-blue?logo=github" alt="GitHub" style="height:20px"></a></p>
 
-<h4>馃摟 鑱旂郴鏂瑰紡</h4>
-<p><code>1579661841@qq.com</code></p>
+    <p>I'm currently a second-year undergraduate student majoring in <strong>Applied Mathematics</strong> at <strong>Xi'an Jiaotong-Liverpool University (XJTLU)</strong>. Passionate about mathematical modeling, data analysis, and programming.</p>
 
-<h4>馃帗 鏁欒偛鑳屾櫙</h4>
-<p><strong>瑗夸氦鍒╃墿娴﹀ぇ瀛?/strong>, 搴旂敤鏁板 鏈 (2024 鈥?2028)<br>
-Xi'an Jiaotong-Liverpool University, BSc Applied Mathematics (2024 鈥?2028)</p>
+    <p>鎴戠洰鍓嶅氨璇讳簬<strong>瑗夸氦鍒╃墿娴﹀ぇ瀛?/strong>锛屾湰绉戝ぇ浜岋紝<strong>搴旂敤鏁板</strong>涓撲笟銆傚鏁板寤烘ā銆佹暟鎹垎鏋愬拰缂栫▼鍏呮弧鐑儏銆?/p>
 
-<h4>馃捇 鎶€鑳?/h4>
-<ul>
-<li><strong>缂栫▼璇█</strong>: Python (NumPy, Pandas, Matplotlib, SciPy), MATLAB, R, LaTeX</li>
-<li><strong>鏁版嵁鍒嗘瀽</strong>: 鏁版嵁娓呮礂銆佺粺璁″缓妯°€佹暟鎹彲瑙嗗寲</li>
-<li><strong>宸ュ叿</strong>: Git, Jupyter Notebook, VS Code, Wolfram Mathematica</li>
-<li><strong>鍏朵粬</strong>: 鏁板寤烘ā銆佸鏈啓浣溿€佽嫳鏂囨枃鐚槄璇?/li>
-</ul>
+    <h4>馃摟 鑱旂郴鏂瑰紡</h4>
+    <p><code>1579661841@qq.com</code></p>
 
-<h4>馃敩 鐮旂┒鍏磋叮</h4>
-<p>鏁板寤烘ā, 鏁版嵁绉戝, 缁熻鍒嗘瀽, 鏈哄櫒瀛︿範, 鏈€浼樺寲鐞嗚</p>
+    <h4>馃帗 鏁欒偛鑳屾櫙</h4>
+    <p><strong>瑗夸氦鍒╃墿娴﹀ぇ瀛?/strong>, 搴旂敤鏁板 鏈 (2024 鈥?2028)</p>
+    <p>Xi'an Jiaotong-Liverpool University, BSc Applied Mathematics (2024 鈥?2028)</p>
 
-            </div>
-        </div>
-    </section>
+    <h4>馃捇 鎶€鑳?/h4>
+    <ul>
+        <li><strong>缂栫▼璇█</strong>: Python (NumPy, Pandas, Matplotlib, SciPy), MATLAB, R, LaTeX</li>
+        <li><strong>鏁版嵁鍒嗘瀽</strong>: 鏁版嵁娓呮礂銆佺粺璁″缓妯°€佹暟鎹彲瑙嗗寲</li>
+        <li><strong>宸ュ叿</strong>: Git, Jupyter Notebook, VS Code, Wolfram Mathematica</li>
+        <li><strong>鍏朵粬</strong>: 鏁板寤烘ā銆佸鏈啓浣溿€佽嫳鏂囨枃鐚槄璇?/li>
+    </ul>
 
-    <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
-        <div class="container px-5">
-            <header>
-                <h2><i class="bi bi-award-fill"></i> AWARDS</h2>
-            </header>
-            <div class="main-body">
-                <ul>
-                    <li>瑗夸氦鍒╃墿娴﹀ぇ瀛﹀叆瀛﹀瀛﹂噾, 2024</li>
-                    <li>SURF 鏆戞湡鏈鐢熺爺绌堕」鐩瘉涔? 2025</li>
-                    <li>CET-4 / CET-6 鑻辫姘村钩璇佷功</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+    <h4>馃敩 鐮旂┒鍏磋叮</h4>
+    <p>鏁板寤烘ā &middot; 鏁版嵁绉戝 &middot; 缁熻鍒嗘瀽 &middot; 鏈哄櫒瀛︿範 &middot; 鏈€浼樺寲鐞嗚</p>
+</div>
 
-    <!-- Experience -->
-    <section class="bg-gradient-primary-to-secondary-dark mt5 md5" id="experience">
-        <div class="container px-5">
-            <header>
-                <h2><i class="bi bi-briefcase-fill"></i> EXPERIENCE</h2>
-            </header>
-            <div class="main-body">
+<div class="section bg-light" id="awards">
+    <h2>馃弳 AWARDS</h2>
+    <ul>
+        <li>瑗夸氦鍒╃墿娴﹀ぇ瀛﹀叆瀛﹀瀛﹂噾, 2024 <span class="badge">鏍＄骇</span></li>
+        <li>SURF 鏆戞湡鏈鐢熺爺绌堕」鐩瘉涔? 2025</li>
+        <li>CET-4 / CET-6 鑻辫姘村钩璇佷功</li>
+    </ul>
+</div>
 
-<h3>SURF 鏆戞湡鏈鐢熺爺绌堕」鐩?/h3>
-<p><strong>2025骞?鏈?鈥?2025骞?鏈?| 瑗夸氦鍒╃墿娴﹀ぇ瀛?/strong></p>
-<p>鍙傚姞瑗夸氦鍒╃墿娴﹀ぇ瀛?Summer Undergraduate Research Fellowship (SURF) 椤圭洰锛屽湪瀵煎笀鎸囧涓嬪紑灞曞鏈爺绌跺伐浣溿€傞€氳繃椤圭洰瀹炶返锛屾彁鍗囦簡鐙珛鐮旂┒鑳藉姏銆佹暟鎹垎鏋愭妧鑳藉拰瀛︽湳鍐欎綔姘村钩銆?/p>
+<div class="section" id="experience">
+    <h2>馃捈 EXPERIENCE</h2>
 
-<h4>涓昏宸ヤ綔锛?/h4>
-<ul>
-<li>鍙備笌璇鹃鐮旂┒锛屾煡闃呯浉鍏抽鍩熸枃鐚紝鏋勫缓鐞嗚妗嗘灦</li>
-<li>浣跨敤 Python 鍜?MATLAB 杩涜鏁版嵁澶勭悊涓庢暟鍊兼ā鎷?/li>
-<li>涓庡洟闃熸垚鍛樺崗浣滃畬鎴愮爺绌舵姤鍛婂拰灞曠ず绛旇京</li>
-<li>鎾板啓椤圭洰鎶ュ憡骞跺畬鎴愭渶缁堟垚鏋滄眹鎶?/li>
-</ul>
+    <h3>SURF 鏆戞湡鏈鐢熺爺绌堕」鐩?/h3>
+    <p><strong>2025骞?鏈?鈥?2025骞?鏈?| 瑗夸氦鍒╃墿娴﹀ぇ瀛?/strong></p>
+    <p>鍙傚姞瑗夸氦鍒╃墿娴﹀ぇ瀛?Summer Undergraduate Research Fellowship (SURF) 椤圭洰锛屽湪瀵煎笀鎸囧涓嬪紑灞曞鏈爺绌跺伐浣溿€傞€氳繃椤圭洰瀹炶返锛屾彁鍗囦簡鐙珛鐮旂┒鑳藉姏銆佹暟鎹垎鏋愭妧鑳藉拰瀛︽湳鍐欎綔姘村钩銆?/p>
 
-<hr>
+    <h4>涓昏宸ヤ綔锛?/h4>
+    <ul>
+        <li>鍙備笌璇鹃鐮旂┒锛屾煡闃呯浉鍏抽鍩熸枃鐚紝鏋勫缓鐞嗚妗嗘灦</li>
+        <li>浣跨敤 Python 鍜?MATLAB 杩涜鏁版嵁澶勭悊涓庢暟鍊兼ā鎷?/li>
+        <li>涓庡洟闃熸垚鍛樺崗浣滃畬鎴愮爺绌舵姤鍛婂拰灞曠ず绛旇京</li>
+        <li>鎾板啓椤圭洰鎶ュ憡骞跺畬鎴愭渶缁堟垚鏋滄眹鎶?/li>
+    </ul>
 
-<h3>SURF 鈥?Summer Undergraduate Research Fellowship</h3>
-<p><strong>July 2025 鈥?August 2025 | Xi'an Jiaotong-Liverpool University</strong></p>
-<p>Participated in the Summer Undergraduate Research Fellowship (SURF) program at XJTLU, conducting academic research under faculty supervision.</p>
+    <hr>
 
-<h4>Key Contributions:</h4>
-<ul>
-<li>Conducted literature review and constructed theoretical frameworks</li>
-<li>Performed data processing and numerical simulations using Python and MATLAB</li>
-<li>Collaborated with team members to complete research reports and presentations</li>
-<li>Authored project report and delivered final presentation</li>
-</ul>
+    <h3>SURF 鈥?Summer Undergraduate Research Fellowship</h3>
+    <p><strong>July 2025 鈥?August 2025 | XJTLU</strong></p>
+    <p>Participated in the Summer Undergraduate Research Fellowship (SURF) program at XJTLU, conducting academic research under faculty supervision.</p>
 
-            </div>
-        </div>
-    </section>
+    <h4>Key Contributions:</h4>
+    <ul>
+        <li>Conducted literature review and constructed theoretical frameworks</li>
+        <li>Performed data processing and numerical simulations using Python and MATLAB</li>
+        <li>Collaborated with team members to complete research reports and presentations</li>
+        <li>Authored project report and delivered final presentation</li>
+    </ul>
+</div>
 
-    <!-- Projects -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="projects">
-        <div class="container px-5">
-            <header>
-                <h2><i class="bi bi-file-text-fill"></i>&nbsp;PROJECTS</h2>
-            </header>
-            <div class="main-body">
-                <ul>
-                    <li><strong>鏁板寤烘ā</strong>: 鍩轰簬寰垎鏂圭▼鐨勪汉鍙ｅ闀挎ā鍨嬪垎鏋愶紙Python + MATLAB锛?/li>
-                    <li><strong>鏁版嵁鍒嗘瀽椤圭洰</strong>: 鍩轰簬 Python 鐨勯噾铻嶆暟鎹彲瑙嗗寲涓庣粺璁″垎鏋愶紙NumPy, Pandas, Matplotlib锛?/li>
-                    <li><strong>璇剧▼椤圭洰</strong>: 绾挎€т唬鏁板湪鏈哄櫒瀛︿範涓殑搴旂敤鎺㈢┒</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+<div class="section bg-gray" id="projects">
+    <h2>馃搧 PROJECTS</h2>
+    <ul>
+        <li><strong>鏁板寤烘ā</strong>: 鍩轰簬寰垎鏂圭▼鐨勪汉鍙ｅ闀挎ā鍨嬪垎鏋愶紙Python + MATLAB锛?/li>
+        <li><strong>鏁版嵁鍒嗘瀽椤圭洰</strong>: 鍩轰簬 Python 鐨勯噾铻嶆暟鎹彲瑙嗗寲涓庣粺璁″垎鏋愶紙NumPy, Pandas, Matplotlib锛?/li>
+        <li><strong>璇剧▼椤圭洰</strong>: 绾挎€т唬鏁板湪鏈哄櫒瀛︿範涓殑搴旂敤鎺㈢┒</li>
+    </ul>
+</div>
 
-    <!-- Footer -->
-    <footer class="bg-bottom text-center py-5">
-        <div class="container px-5">
-            <div class="text-white-50 small">
-                <div class="mb-2">&copy; 閭垫瓎缇?2025-2026. All Rights Reserved.</div>
-                <a href="https://github.com/Xinyu152">GitHub</a>
-                <span class="mx-1">&middot;</span>
-                <a href="https://github.com/Xinyu152/Xinyu152.github.io">License</a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Bootstrap ScrollSpy -->
-    <script>
-        window.addEventListener('DOMContentLoaded', function() {
-            var mainNav = document.body.querySelector('#mainNav');
-            if (mainNav) {
-                new bootstrap.ScrollSpy(document.body, { target: '#mainNav', offset: 74 });
-            }
-            var navbarToggler = document.body.querySelector('.navbar-toggler');
-            var responsiveNavItems = [].slice.call(document.querySelectorAll('#navbarResponsive .nav-link'));
-            responsiveNavItems.map(function(item) {
-                item.addEventListener('click', function() {
-                    if (window.getComputedStyle(navbarToggler).display !== 'none') {
-                        navbarToggler.click();
-                    }
-                });
-            });
-        });
-    </script>
+<footer>
+    <p>&copy; 閭垫瓎缇?2025-2026. All Rights Reserved.</p>
+    <p><a href="https://github.com/Xinyu152">GitHub</a> &middot; <a href="https://github.com/Xinyu152/Xinyu152.github.io">Repository</a></p>
+</footer>
 
 </body>
-
 </html>
